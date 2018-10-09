@@ -1,6 +1,31 @@
+.btn {
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.dash-btn {
+	color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.dash-btn:hover {
+	background: #f2ffef;
+}
+
 .main {
 	width: 100%;
-	margin: 90px auto;
+	/*margin: 90px auto;*/
 
 }
 
@@ -18,4 +43,35 @@
 
 .main .login-form .form-elements .form-input {
 	margin: 20px 0;
+}
+
+.main .dashboard {
+	width: 97%;
+	background: #eee;
+	padding: 1.5%;
+	overflow: auto;
+}
+
+.main .login-info h2 {
+	float: right;
+	font-size: 14px;
+}
+
+.main .dashboard .dash-options {
+	width: 20%;
+	padding: 1%;
+	float: left;
+}
+
+.main .dashboard .dash-options a {
+	display: block;
+	margin-bottom: 10px;
+	width: 60%;
+}
+
+.main .dashboard .product-available {
+	width: 75%;
+	padding: 1%;
+	background: #fff;
+	float: right;
 }
