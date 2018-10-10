@@ -1,3 +1,17 @@
+table {
+	
+}
+thead {
+	
+}
+tr {
+	/*border: 1px solid #aaa;*/
+}
+th, td {
+	padding: 5px 10px;
+	text-align: left;
+	border: 1px solid #aaa;
+}
 .btn {
 	display: inline-block;
     padding: 6px 12px;
@@ -54,6 +68,19 @@
     background-image: none;
     border: 1px solid #ccc;
     /*border-radius: 4px;*/
+}
+
+.table {
+	width: 100%;
+	max-width: 100%;
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+}
+
+.table th {
+	background: #ddd;
+	text-transform: uppercase;
+	/*border-right: 1px solid #fff;*/
 }
 
 .main {
