@@ -23,6 +23,18 @@
 	background: #f2ffef;
 }
 
+.product-btn {
+	color: #fff;
+    background-color: #14ab07;
+    border-color: #0dab00;
+}
+
+.product-btn:hover {
+	color: #333;
+	background: #f2ffef;
+	border-color: #ccc;
+}
+
 .main {
 	width: 100%;
 	/*margin: 90px auto;*/
@@ -74,4 +86,20 @@
 	padding: 1%;
 	background: #fff;
 	float: right;
+}
+
+.main .product {
+	padding: 20px;
+	background: #fff;
+    overflow: auto;
+}
+
+.main .product-img {
+	float: left;
+	width: 20%;
+}
+
+.main .product-details {
+	float: right;
+	width: 65%;
 }
