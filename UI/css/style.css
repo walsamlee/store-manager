@@ -27,6 +27,14 @@ form table th, td {
 	text-align: left;
 }
 
+.left-align {
+	text-align: left;
+}
+
+.right-align {
+	text-align: right;
+}
+
 .btn {
 	display: inline-block;
     padding: 6px 12px;
