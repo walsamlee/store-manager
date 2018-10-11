@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Store Manager - Login</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="main">
+		<div class="login-info">
+			<h2>Logged in as: Akinwale Samuel</h2>
+		</div>
+		<div class="dashboard">
+			<div class="dash-options">
+				<a href="#" class="btn dash-btn">Add Product</a>
+				<a href="#" class="btn dash-btn">Edit Product</a>
+				<a href="#" class="btn dash-btn">Delete Product</a>
+				<a href="#" class="btn dash-btn">View Sales</a>
+			</div>
+			<div class="product-available">
+				<form>
+					<table>
+						<tr>
+							<td><label for="firstName">First Name: </label></td>
+							<td><input type="text" class="form-text" name="firstName"></td>
+						</tr>
+						<tr>
+							<td><label for="lastName">Last Name: </label></td>
+							<td><input type="text" class="form-text" name="lastName"></td>
+						</tr>
+						<tr>
+							<td><label for="username">staff ID: </label></td>
+							<td><input type="text" class="form-text" name="staffId"></td>
+						</tr>
+						<tr>
+							<td><label for="password">Password: </label></td>
+							<td><input type="text" class="form-text" name="password"></td>
+						</tr>
+						<tr>
+							<td><label for="password">Admin Role: </label></td>
+							<td id="attendant-input">
+								<input type="radio" name="admin" value="false" checked> No<br>
+								<br>
+  								<input type="radio" name="admin" value="true"> Yes<br>
+							</td>
+						</tr>
+						<!-- <tr>
+							<td>Select Picture: </td>
+							<td id="attendant-input"><input type="file" name="picture"></td>
+						</tr> -->
+						<tr>
+							<td></td>
+							<td>
+								<input type="submit" class="btn product-btn" value="Add">
+								<input type="reset" class="btn product-btn" value="Reset">
+								<button class="btn product-btn">Cancel</button>
+							</td>
+						</tr>
+					</table>
+
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
