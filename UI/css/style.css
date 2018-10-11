@@ -18,7 +18,7 @@ th, td {
 	padding-bottom: 10px;
 }
 
-.form-table > th, > td {
+.form-table tr > th, .form-table tr > td {
 	border: none;
 	padding: 10px 5px;
 }
