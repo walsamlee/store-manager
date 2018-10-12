@@ -27,6 +27,47 @@ th, td {
 	text-align: left;
 }
 
+.cart-item {
+	padding: 5px 15px;
+}
+
+.cart-table {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0 10px;
+}
+
+.cart-table tr {
+
+}
+
+.cart-table tr > th {
+	border: none;
+}
+
+.cart-table tr > td {
+	border: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.cart-item-tr {
+	background: #eee;
+}
+
+.cart-select {
+	display: block;
+    width: 30%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #eee;
+    background-image: none;
+    border-color: #eee;
+}
+
 .left-align {
 	text-align: left;
 }
@@ -77,6 +118,17 @@ th, td {
 	color: #333;
 	background: #f2ffef;
 	border-color: #ccc;
+}
+
+.remove-btn {
+	color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.remove-btn:hover {
+    background-color: #f00;
+    color: #fff;
 }
 
 .form-text {
